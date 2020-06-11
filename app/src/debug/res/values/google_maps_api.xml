@@ -1,0 +1,18 @@
+<resources>
+    <string name="google_maps_key_instructions" templateMergeStrategy="replace"><!--
+
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=_A_GREAT_KEY_WHICH_IS_HIDDEN_IN_THE_SANITIZED_VERSION_com.fric.outdoorsmanswaypointplotter
+
+    You can also add your credentials to an existing key, using this line:
+    _A_GREAT_KEY_WHICH_IS_HIDDEN_IN_THE_SANITIZED_VERSION_;com.fric.outdoorsmanswaypointplotter
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    --></string>
+
+    <string name="fake_maps_key" templateMergeStrategy="preserve">MyTestKey</string>
+</resources>

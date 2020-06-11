@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plant Count:"/>
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroupPlantCount">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Few"
+            android:paddingRight="2dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantCountSmall" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tens"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="2dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantCountMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hundreds"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantCountLarge" />
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Largest Plant Size:"/>
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroupPlantSize">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short"
+            android:paddingRight="10dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantSizeSmall" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantSizeMedium" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tall"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantSizeLarge" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plant Age:"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroupPlantAge">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="24dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantAgeYoung" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old"
+            android:paddingRight="50dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/radioButtonPlantAgeOld" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Est. Age: Young: Less than 10yr  Old:  More than 10yr"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Short:  3 ft  Medium: 5-6 ft  Tall:  8 ft"/>
+
+
+</LinearLayout>

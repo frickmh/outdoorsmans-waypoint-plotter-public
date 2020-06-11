@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_type_save"
+        android:orderInCategory="100"
+        android:icon="@drawable/action_save"
+        android:title="Save Points"
+        android:onClick="saveMarkers"
+        />
+
+    <item
+        android:id="@+id/action_type_clear"
+        android:orderInCategory="100"
+        android:title="Clear Points"
+        android:onClick="clearMarkers"
+        />
+
+    <item
+        android:id="@+id/action_type_normal"
+        android:orderInCategory="100"
+        android:title="Enter Point"
+        android:onClick="showEnterPoint"/>
+
+    <item
+        android:id="@+id/action_type_mapOptions"
+        android:orderInCategory="100"
+        android:title="Map Options"
+        android:onClick="showMapOptions"
+        />
+
+    <item
+        android:id="@+id/action_type_fileOptions"
+        android:orderInCategory="100"
+        android:title="File Options"
+        android:onClick="showFileOptions"
+        />
+
+    <item
+        android:id="@+id/action_type_instructions"
+        android:orderInCategory="100"
+        android:title="Instructions"
+        android:onClick="showInstructions"
+        />
+
+    <item
+        android:id="@+id/action_type_about"
+        android:orderInCategory="100"
+        android:title="About"
+        android:onClick="showAbout"
+        />
+
+    <item
+        android:id="@+id/action_type_rate"
+        android:orderInCategory="100"
+        android:title="Rate App"
+        android:onClick="showRateApp"
+        />
+
+</menu>

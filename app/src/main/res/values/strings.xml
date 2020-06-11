@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Outdoorsman\'s Waypoint Plotter</string>
+    <string name="title_activity_maps">Outdoorsman\'s Waypoint Plotter</string>
+    <string name="warning">By accepting this agreement, the user agrees to the following terms and conditions: This application comes with no guarantee of accuracy or reliability, and should NOT be used as a safety device.  The developer of this application bears no responsibility for damage or loss caused by installation or use of this product.  The user agrees not to reproduce, modify, or distribute this application without prior written consent from the developer.</string>
+    <string name="about">The Outdoorsman\'s Waypoint Plotter is a simple and lightweight tool for plotting waypoints on a map.  Plot points as you go, then easily regain your bearings with the built-in compass.  Record location notes with speech recognition with minimal use of the keyboard, or record notes the old-fashioned way by using the on-screen keyboard.  Perfect for use in cold climates, where this tool can be used without de-gloving (Try using your nose!).</string>
+    <string name="credits_icon">Paul Bunyan - /tg/ Monster Island Wiki</string>
+    <string name="banner_ad_unit_id">ca-app-pub-12345678910</string>
+
+</resources>

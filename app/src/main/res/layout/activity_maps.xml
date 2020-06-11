@@ -1,0 +1,107 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+         >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Waypoint"
+            android:onClick="addAtCurrentLocation"/>
+
+
+
+        <fragment
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/map"
+            tools:context=".MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/BLACK">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayoutToggleButtons">
+
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Measure"
+            android:textOn="Measure"
+            android:textOff="Measure"
+            android:id="@+id/toggleButtonMeasure"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:layout_marginLeft="6dp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center"
+            android:textOn="Center"
+            android:textOff="Center"
+            android:id="@+id/toggleButtonCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/toggleButtonMeasure"
+            android:checked="false" />
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Distance: 1000 ft"
+        android:textColor="@color/button_material_dark"
+        android:id="@+id/textViewDistance"
+        android:layout_above="@+id/linearLayoutToggleButtons"
+        android:layout_alignLeft="@+id/linearLayoutToggleButtons"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Radius: 1000 ft"
+        android:textColor="@color/button_material_dark"
+        android:id="@+id/textViewRangeRadius"
+        android:layout_above="@+id/textViewDistance"
+        android:layout_alignLeft="@+id/linearLayoutToggleButtons"
+        android:layout_marginLeft="8dp" />
+
+
+</RelativeLayout>
